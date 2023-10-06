@@ -1,0 +1,213 @@
+.btn {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Georgia;
+    color: #ffffff;
+    font-size: 20px;
+    background: #3eb489;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #0a0a0a;
+    text-decoration: none;
+  }
+  a:link {
+    color: blue;
+  }
+  
+  a:visited {
+    color: purple;
+  }
+  
+  a:hover {
+    color: #3eb489;
+  }
+  
+  a:active {
+    color:black;
+  }
+  
+  a:link, a:visited {
+    text-decoration: none;
+  }
+  ul {
+    list-style-type: none;
+  }
+  .navbar-nav > li{
+    padding-left:30px;
+    padding-right:30px;
+  }
+  .slider {
+    width: 2179px;
+    margin: auto;
+    overflow: visible;
+}
+.slider ul {
+    display: flex;
+    padding: 0;
+    animation: cambio 30s infinite linear;
+}
+.slider li {
+    padding:0 10px;
+    list-style: none;
+}
+.slider img {
+    max-width: fit-content !important;
+    height: auto !important;
+}
+@keyframes cambio {
+    from {margin-left: 0%}
+    to {margin-left: -100%}
+}
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  /* Style the back side */
+  .flip-card-back {
+    background-color: dodgerblue;
+    color: white;
+    transform: rotateY(180deg);
+  }
+  .grid-container {
+    margin-left: 120px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+#logo
+{
+  zoom: 100%;
+}
+h2
+{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align:baseline;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  text-size-adjust: none;
+  color: #fff;
+  font-family: Open Sans;
+  display: block;
+  font-size: 20px;
+  margin: 26px 0 16px;
+  font-weight: 600;
+  max-width: 447px;
+  line-height: 27px;
+  margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+section.one p {
+  display: block;
+}
+section.one p {
+  color: #fff;
+  margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    text-size-adjust: none;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    line-height: 1.4rem;
+}
+
+section.one h1 {
+    font-size: 48px;
+    line-height: 56px;
+    text-align: left;
+    max-width: none;
+    color: #fff;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    text-size-adjust: none;
+    font-family:IvyMode;
+}
+.one {
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  text-align: center;
+  height: 75vh; 
+  margin: 0; 
+  margin-top: 120px; 
+  background-color: #ebd9f7;  
+}
+.one {
+  background-color: #ebd9f7; 
+}
+
+.container {
+  padding: 60px 0; 
+}
+
+.intro {
+  text-align: left; 
+}
+
+.pich {
+  text-align: right;
+}
+
+.pic {
+  max-width: 100%;
+  height: auto;
+}
+.spacer {
+  height: 1px; /* Adjust the height to match the fixed navbar height */
+}
+.container {
+  padding: 60px 0; /* Add padding to center the content vertically */
+}
+
+
